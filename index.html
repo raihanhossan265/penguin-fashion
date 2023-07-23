@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penguin-fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/027f4b2125.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    .font-roboto{
+        font-family: 'Roboto', sans-serif;
+    }
+    .font-bebas{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .path{
+        fill:#fff
+    }
+</style>
+</head>
+<body>
+    <header>
+        <!-- nav section  -->
+        <nav class="flex gap-7 flex-col md:flex-row justify-between max-w-screen-xl mx-auto items-center py-9">
+            <div>
+                <img class="w-64" src="icons/logo.png" alt="">
+            </div>
+            <div class="manu">
+                <ul class="flex">
+                    <li class="ml-14 mr-14 text-[#3C3C3C] text-base font-medium font-roboto"><a href="">Home</a></li>
+                    <li class="mr-14 text-[#3C3C3C] text-base font-medium font-roboto"><a href="">Product</a></li>
+                    <li class="mr-14 text-[#3C3C3C] text-base font-medium font-roboto"><a href="">About us</a></li>
+                    <li class="mr-14 text-[#3C3C3C] text-base font-medium font-roboto"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+        <section class="flex-col md:flex-row flex max-w-screen-xl gap:6 mx-auto justify-between items-center">
+            <div class="banner-container">
+                <h1 class="banner-title uppercase font-bebas text-7xl"><span class="text-[#FABE4C]"> be the penguins</span> <br><span class="text-[#363958]">of winter</span></h1>
+                <p class="banner-description text-[#3E3E3E] text-base text-[#3E3E3E] py-2">Lorem Ipsum is simply dummy text of the  <br> and typesetting industry.</p>
+                <div class="banner-button">
+                    <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                        <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                        buy now</button>
+                </div>
+            </div>
+            <div class="banner-profile">
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+        <!-- ----------------------Woman Jacket---------------------- -->
+        <section class="woman-jacket my-20">
+            <h2 class="section-title pb-10 text-[#363958] font-bebas text-5xl	">Woman jacket</h2>
+            <div class="woman-jacket-container flex flex-col md:flex-row justify-between">
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-1.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-2.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-3.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- ----------------------------Man section ----------------------------->
+        <section class="man-jacket my-20">
+            <h2 class="section-title pb-10 text-[#363958] font-bebas text-5xl	">Man jacket</h2>
+            <div class="woman-jacket-container flex-col md:flex-row flex justify-between">
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-4.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-5.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-5">
+                    <img class="bg-gray-300	p-5 rounded-md " src="images/jacket-6.png" alt="">
+                    <h2 class="card-title text-[#363958] text-2xl pt-4 font-roboto font-bold ">Yellow coat jacket</h2>
+                    <p class="card-description text-[#3e3e3e] py-4 font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card-price-btn flex items-center justify-between">
+                        <h3 class="card-price text-[#fabe4c] font-roboto font-black	text-4xl">$234</h3>
+                        <div class="banner-button">
+                            <button class="btn-primary flex items-center text-[#fff] bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-9 py-4 rounded-md uppercase text-base font-roboto">
+                                <svg class="path pr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                buy now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <!-- ----------------------------Perfect-fit section ----------------------------->
+
+        <section class="prefect-fit flex-col-reverse md:flex-row flex justify-between items-center">
+            <div class="perfect-fit-content mt-16 md:mr-16">
+                <div class="prefect-fit-single flex items-center mb-16 flex-col md:flex-row">
+                    <img class="w-1/5" src="icons/house.png" alt="">
+                    <div class="prefect-fit-content-right md:pl-10 text-center md:text-left">
+                        <h3 class="prefect-title text-[#363958] font-roboto text-2xl font-bold">Find the Perfect Fit</h3>
+                        <p class="prefect-description text-[#3e3e3e] text-base font-normal">Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="prefect-fit-single flex items-center mb-16 flex-col md:flex-row">
+                    <img class="w-1/5" src="icons/box.png" alt="">
+                    <div class="prefect-fit-content-right pl-10 text-center md:text-left">
+                        <h3 class="prefect-title text-[#363958] font-roboto text-2xl font-bold">Free Exchanges</h3>
+                        <p class="prefect-description text-[#3e3e3e] text-base font-normal">One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="prefect-fit-single flex items-center mb-16 flex-col md:flex-row">
+                    <img class="w-1/5" src="icons/question.png" alt="">
+                    <div class="prefect-fit-content-right pl-10 text-center md:text-left">
+                        <h3 class="prefect-title text-[#363958] font-roboto text-2xl font-bold">Contact Our Seller</h3>
+                        <p class="prefect-description text-[#3e3e3e] text-base font-normal">They are here to help you. That's quite 
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="perfect-fit-img w-8/12">
+                <img src="images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
